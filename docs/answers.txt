@@ -1,0 +1,62 @@
+(a)
+
+$ git commit -m "Updated Status file This is the staus after the first commit for the README.md file"
+
+[master 8ad05ac] Updated Status file This is the status after the first commit for the README.md file
+
+1 file changed, 5 insertions(+)
+
+(b)
+
+There has been 9 commits that have been done to the repository.
+
+git command used: git rev-list --all --count
+
+(c)
+
+The last time the file .gitignore was modified was October 11 14:00.
+
+git command used: ls -la
+
+(d)
+
+commit fbdbe9391ec1ce71f10738f17f8d336b597 (origin/master, origin/HEAD)
+
+commit 36a8e55e4bbdd171ab57d979e1a802d740f2db9b
+
+commit 1cc7d6674cce7e5339598e87e07e329c45814408 (origin/development)
+
+(e)
+
+One reason to use branches in a Git repository is that branching makes sure the code changes are verified before delivering them to other developers. Another reason for using branches is that branching can help isolate development activities amoung the team.
+
+(f)
+
+Git log is a command that outputs info about the last commits. Git status shows the working tree status.
+
+(g)
+
+git log --follow <Weapon.h>
+
+(h) 
+
+git log --grep="file"
+
+(i)
+  I.
+   
+   Inheritance is when an object or class is based on another object or class. These use the same implementation. The object or class acquires all the properties and behaviors of the parent object. The class inheriting or subclass is the more specific version of the parent class such as shape (parent) to square (subclass).
+
+  II.
+ 
+   Polymorphism is the ablity to present the same interface for differing underlying forms. An example of this is the data types known as int and double. These are able to be added, subtracted, and multiplied even though they are different types. 
+
+  III.
+
+   Encapsulation refers to the bundling of data with the methods that operate on that data. It's used to hide the values or state of a structured data object inside a class. An example of this would be putting instance variables inside the private section when writing in C++.
+
+ 7. 
+
+  This RoleGame Prototype is using both the polymorphism and encapsulation. Encapsulation is utilized in the RoleGame when the instance variables are declared in the protected section of the parent classes. This is done this way so that the subclasses can use these variables also. Polymorphism was used when all the differrent weapon classes used the same function called "hit". Also when virtual is declared infront of data types then it can be used with polymorphism.
+
+  
